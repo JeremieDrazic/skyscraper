@@ -8,9 +8,9 @@
     "dist"
   ],
   "scripts": {
+    "prepare": "cd ../../ && husky install packages/server/.husky",
     "watch": "tsc -w",
-    "dev": "nodemon dist/index.js",
-    "prepare": "husky install"
+    "dev": "nodemon dist/index.js"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.4.0",
@@ -29,6 +29,9 @@
     "puppeteer": "^11.0.0"
   },
   "lint-staged": {
-    "*.ts": "eslint --cache --fix && prettier --write"
+    "*.ts": [
+      "eslint --cache --fix",
+      "prettier --write"
+    ]
   }
 }
