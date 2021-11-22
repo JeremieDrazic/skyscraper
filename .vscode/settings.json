@@ -1,15 +1,17 @@
 {
   "workbench.startupEditor": "none",
   "editor.fontSize": 14,
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 100,
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.minimap.enabled": false,
   "editor.tabSize": 2,
   "editor.renderWhitespace": "all",
-  "prettier.trailingComma": "none",
   "editor.detectIndentation": false,
   "explorer.confirmDragAndDrop": false,
+  "prettier.trailingComma": "none",
   "javascript.suggestionActions.enabled": false,
   "typescript.suggestionActions.enabled": false
 }
