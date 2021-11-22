@@ -12,6 +12,8 @@ async function startBrowser() {
     })
   } catch (error) {
     console.error('Could not create a browser instance => : ', error)
+    const hello = 'hello'
+    console.log(hello)
   }
 
   return browser

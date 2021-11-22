@@ -1,4 +1,5 @@
 node_modules
+.eslintcache
 
 # misc
 .DS_Store
