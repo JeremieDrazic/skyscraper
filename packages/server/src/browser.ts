@@ -1,20 +1,20 @@
-// import puppeteer from 'puppeteer'
+import puppeteer from 'puppeteer'
 
-// async function startBrowser() {
-//   let browser = null
+async function startBrowser() {
+  let browser = null
 
-//   try {
-//     console.log('opening the browser...')
-//     browser = await puppeteer.launch({
-//       headless: false,
-//       args: ['--disable-setuid-sandbox'],
-//       ignoreHTTPSErrors: true
-//     })
-//   } catch (error) {
-//     console.error('Could not create a browser instance => : ', error)
-//   }
+  try {
+    console.log('opening the browser...')
+    browser = await puppeteer.launch({
+      headless: false,
+      args: ['--disable-setuid-sandbox'],
+      ignoreHTTPSErrors: true,
+    })
+  } catch (error) {
+    console.error('Could not create a browser instance => : ', error)
+  }
 
-//   return browser
-// }
+  return browser
+}
 
-// export default startBrowser
+export default startBrowser
