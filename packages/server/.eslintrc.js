@@ -9,19 +9,9 @@ module.exports = {
     ecmaVersion: 2017,
     sourceType: 'module',
     tsconfigRootDir: __dirname,
-    project: 'tsconfig.json',
+    project: 'tsconfig.eslint.json',
   },
   plugins: ['@typescript-eslint'],
-  settings: {
-    'import/parsers': {
-      '@typescript-eslint/parser': ['.ts'],
-    },
-    'import/resolver': {
-      typescript: {
-        alwaysTryTypes: true,
-      },
-    },
-  },
   rules: {
     'import/order': [
       'error',

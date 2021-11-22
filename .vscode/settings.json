@@ -1,0 +1,15 @@
+{
+  "workbench.startupEditor": "none",
+  "editor.fontSize": 14,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "all",
+  "prettier.trailingComma": "none",
+  "editor.detectIndentation": false,
+  "explorer.confirmDragAndDrop": false,
+  "javascript.suggestionActions.enabled": false,
+  "typescript.suggestionActions.enabled": false
+}
