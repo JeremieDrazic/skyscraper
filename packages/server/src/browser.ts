@@ -1,4 +1,3 @@
-import './index'
 import puppeteer from 'puppeteer'
 
 async function startBrowser() {
