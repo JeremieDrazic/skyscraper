@@ -1,3 +1,4 @@
+import './index'
 import puppeteer from 'puppeteer'
 
 async function startBrowser() {
@@ -12,7 +13,7 @@ async function startBrowser() {
     })
   } catch (error) {
     console.error('Could not create a browser instance => : ', error)
-    const hello = 'hello'
+    const hello = 'hellowww'
     console.log(hello)
   }
 
